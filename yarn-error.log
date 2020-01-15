@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/macbookpro/.nvm/versions/node/v10.16.3/bin/node /Users/macbookpro/.nvm/versions/node/v10.16.3/bin/yarn add @babel/preset-presets-env
+
+PATH: 
+  /Users/macbookpro/.nvm/versions/node/v10.16.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/macbookpro/.nvm/versions/node/v10.16.3/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2fpreset-presets-env: Not found
+      at Request.params.callback [as _callback] (/Users/macbookpro/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:66830:18)
+      at Request.self.callback (/Users/macbookpro/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:140464:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/Users/macbookpro/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:141436:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/Users/macbookpro/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "exercicio-02",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
